@@ -5,8 +5,8 @@ const router = express.Router();
 const { postUserDetails, getSignupForm, getUserLogin, postUserLogin} = require('../controllers/userController');
 
 
-router.get('/signup', getSignupForm);
-router.post('/signup', postUserDetails);
+router.get('/', getSignupForm);
+router.post('/', postUserDetails);
 router.get('/login', getUserLogin);
 router.post('/login', postUserLogin)
 

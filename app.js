@@ -7,7 +7,7 @@ app.use(express.urlencoded({extended:true}));//access form data
 
 
 //user routes
-app.use('/api/user/' , userRoutes);
+app.use('/' , userRoutes);
 
 
 
